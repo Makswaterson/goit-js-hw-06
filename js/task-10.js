@@ -16,11 +16,10 @@ function onInputNumber(event) {
   number = Number(event.target.value);
   console.log(number);
 }
-const markup = [];
 
 function onCreateBox() {
   for (let i = 0; i < number; i++) {
-    const markupBox = `<div style="width: ${30 + i * 10}px; heigth: ${30 + i * 10}px;
+    const markupBox = `<div style="width: ${30 + i * 10}px; height: ${30 + i * 10}px;
      background-color: ${getRandomHexColor()}"></div>`;
     boxesRef.insertAdjacentHTML('afterbegin', markupBox);
     console.log(markupBox);
