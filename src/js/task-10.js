@@ -12,7 +12,7 @@ destroyBtnRef.addEventListener('click', onDestroyBox);
 inputBtnRef.addEventListener('input', onInputNumber);
 
 let number = 0;
-function onInputNumber() {
+function onInputNumber(event) {
   number = Number(event.target.value);
   console.log(number);
 }
