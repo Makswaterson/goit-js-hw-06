@@ -25,3 +25,11 @@ function changeremoveClassEl() {
   nameInputRef.classList.add('invalid');
   nameInputRef.classList.remove('valid');
 }
+
+// toggleClass(nameInputRef, 'valid', 'invalid');
+// toggleClass(nameInputRef, 'invalid', 'valid');
+
+// function toggleClass(refs, add, rem) {
+//   refs.classList.add(add);
+//   refs.classList.remove(rem);
+// }
